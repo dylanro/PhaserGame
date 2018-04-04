@@ -8,7 +8,7 @@ class Example1 extends Phaser.Scene {
   }
 
   create() {
-    this.image = this.add.image(400,300,'background');
+    this.image = this.add.image(400, 300, 'background');
 
     //input handlers
     this.input.keyboard.on('keyup_D', function(event){
